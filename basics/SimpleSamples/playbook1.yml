@@ -7,3 +7,8 @@
 
     - name: Show Hostname
       command: hostname
+
+    - name: Copy Example File
+      copy:
+        src: test-file.txt
+        dest: /tmp/test-file.txt
