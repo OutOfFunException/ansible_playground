@@ -1,0 +1,9 @@
+# Simple Test Playbook
+- name: Simple Checks
+  hosts: azure_servers
+  tasks:
+    - name: Show Date
+      command: date
+
+    - name: Show Hostname
+      command: hostname

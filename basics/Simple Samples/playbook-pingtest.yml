@@ -1,0 +1,6 @@
+- 
+  name: Test connectivity to targets
+  hosts: azure_servers
+  tasks:
+    - name: Ping Test
+      ping:
